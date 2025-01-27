@@ -45,9 +45,6 @@ To run this project, ensure the following:
    ```
 4. Interact with the GUI to visualize data, train SVR models, and evaluate results.
 
-### Screenshots
-![GUI Screenshot](images/GUI_Screenshot.png)
-
 ## Project Structure
 ```
 matlab-gui-project/
