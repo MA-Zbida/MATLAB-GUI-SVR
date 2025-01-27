@@ -11,6 +11,7 @@ This project is a MATLAB-based GUI application designed to streamline data analy
 2. **Training SVR Kernels**
    - Train and compare multiple SVR kernels (e.g., linear, polynomial, RBF).
    - Visualize the predicted line (for 2D data) or surface (for 3D data).
+   - Visualization only works with datasets of 3 columns or less
 
 3. **Evaluation Metrics**
    - Evaluate model performance using:
@@ -35,7 +36,7 @@ To run this project, ensure the following:
 ### Running the Application
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/matlab-gui-project.git
+   git clone https://github.com/MA-Zbida/matlab-gui-project.git
    ```
 2. Open MATLAB and navigate to the project folder.
 3. Run the main file:
@@ -94,5 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, feel free to reach out:
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+ **Email**: itzzbida@gmail.com
