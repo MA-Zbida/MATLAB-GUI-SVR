@@ -87,9 +87,6 @@ Contributions are welcome! If you'd like to improve this project, follow these s
    ```
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 For questions or feedback, feel free to reach out:
  **Email**: itzzbida@gmail.com
