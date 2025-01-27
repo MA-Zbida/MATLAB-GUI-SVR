@@ -1,4 +1,4 @@
-# MATLAB GUI Project
+# MATLAB SVR GUI Project
 
 ## Overview
 This project is a MATLAB-based GUI application designed to streamline data analysis and regression tasks. It features an intuitive interface and integrates support for Support Vector Regression (SVR) with multiple kernels. The project provides three main functionalities:
@@ -11,7 +11,6 @@ This project is a MATLAB-based GUI application designed to streamline data analy
 2. **Training SVR Kernels**
    - Train and compare multiple SVR kernels (e.g., linear, polynomial, RBF).
    - Visualize the predicted line (for 2D data) or surface (for 3D data).
-   - Visualization only works with datasets of 3 columns or less
 
 3. **Evaluation Metrics**
    - Evaluate model performance using:
@@ -36,25 +35,24 @@ To run this project, ensure the following:
 ### Running the Application
 1. Clone this repository:
    ```bash
-   git clone https://github.com/MA-Zbida/matlab-gui-project.git
+   git clone https://github.com/MA-Zbida/matlab-svr-gui-project.git
    ```
 2. Open MATLAB and navigate to the project folder.
-3. Run the main file:
-   ```matlab
-   main.m
-   ```
+3. Open and run the GUI:
+   - **Option 1**: Double-click `SVR-GUI.fig` to open the GUI in MATLAB.
+   - **Option 2**: Open and run `svr.mlapp` in MATLAB App Designer.
+
 4. Interact with the GUI to visualize data, train SVR models, and evaluate results.
+
 
 ## Project Structure
 ```
-matlab-gui-project/
+matlab-svr-gui-project/
 ├── data/                 # Sample datasets
 ├── images/               # Screenshots and visuals
 ├── src/                  # Source code
-│   ├── main.m            # Entry point of the GUI
-│   ├── svr_training.m    # SVR training logic
-│   ├── data_split.m      # Data splitting functions
-│   └── evaluation.m      # Model evaluation metrics
+│   ├── SVR-GUI.fig       # GUI layout file
+│   ├── svr.mlapp         # MATLAB App Designer file
 ├── README.md             # Project documentation
 └── .gitignore            # Ignored files for Git
 ```
@@ -86,6 +84,9 @@ Contributions are welcome! If you'd like to improve this project, follow these s
    git push origin feature-name
    ```
 5. Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For questions or feedback, feel free to reach out:
