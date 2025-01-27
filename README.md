@@ -35,7 +35,7 @@ To run this project, ensure the following:
 ### Running the Application
 1. Clone this repository:
    ```bash
-   git clone https://github.com/MA-Zbida/matlab-svr-gui-project.git
+   git clone https://github.com/MA-Zbida/MATLAB-GUI-SVR.git
    ```
 2. Open MATLAB and navigate to the project folder.
 3. Open and run the GUI:
