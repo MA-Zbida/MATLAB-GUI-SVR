@@ -49,12 +49,10 @@ To run this project, ensure the following:
 ```
 matlab-svr-gui-project/
 ├── data/                 # Sample datasets
-├── images/               # Screenshots and visuals
 ├── src/                  # Source code
 │   ├── SVR-GUI.fig       # GUI layout file
 │   ├── svr.mlapp         # MATLAB App Designer file
 ├── README.md             # Project documentation
-└── .gitignore            # Ignored files for Git
 ```
 
 ## How It Works
